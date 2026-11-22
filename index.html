@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de estudos de Gabriel Cabral"
+    />
+    <title>Gabriel Cabral | Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="logo" href="#inicio">Gabriel Cabral</a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-content">
+          <p class="eyebrow">Portfólio acadêmico</p>
+          <h1>Gabriel Cabral</h1>
+          <p class="hero-description">
+            Registro das atividades e projetos desenvolvidos durante meus
+            estudos em tecnologia.
+          </p>
+          <a class="button" href="#projetos">Ver meus projetos</a>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Atividades</p>
+            <h2>Projetos por matéria</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="card-number">01</span>
+              <h3>Modelagem de Banco de Dados</h3>
+              <p>
+                Projetos de modelagem conceitual, lógica e física de bancos
+                de dados.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 22 a 28</span>
+                <a href="materia.html?materia=banco-dados">Acessar →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="card-number">02</span>
+              <h3>Inteligência Artificial</h3>
+              <p>
+                Estudos e atividades relacionadas à inteligência artificial
+                e aprendizado de máquina.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 21 a 26</span>
+                <a href="materia.html?materia=inteligencia-artificial"
+                  >Acessar →</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="card-number">03</span>
+              <h3>Back-end</h3>
+              <p>
+                Desenvolvimento de APIs, regras de negócio e gerenciamento
+                de dados.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 22 a 28</span>
+                <a href="materia.html?materia=backend">Acessar →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="card-number">04</span>
+              <h3>Front-end</h3>
+              <p>
+                Interfaces, responsividade e experiências para usuários na
+                web.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 22 a 28</span>
+                <a href="materia.html?materia=frontend">Acessar →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="card-number">05</span>
+              <h3>Versionamento</h3>
+              <p>
+                Controle de versões, colaboração e gerenciamento de código
+                com Git.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 21 a 26</span>
+                <a href="materia.html?materia=versionamento">Acessar →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="card-number">06</span>
+              <h3>Programação Mobile</h3>
+              <p>
+                Desenvolvimento de aplicativos para dispositivos móveis.
+              </p>
+              <div class="card-footer">
+                <span>Semanas 22 a 28</span>
+                <a href="materia.html?materia=mobile">Acessar →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="sobre">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">Sobre mim</p>
+            <h2>Minha trajetória acadêmica</h2>
+          </div>
+
+          <div class="about-text">
+            <p>
+              Sou Gabriel Cabral e este portfólio reúne atividades, projetos
+              e aprendizados desenvolvidos durante minha formação em
+              tecnologia.
+            </p>
+            <p>
+              Aqui compartilho minha evolução em banco de dados,
+              inteligência artificial, desenvolvimento back-end e front-end,
+              versionamento e programação mobile.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container contact-content">
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos conversar?</h2>
+          <p>Entre em contato para conhecer melhor meus trabalhos.</p>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <label>
+                Nome
+                <input type="text" name="name" required />
+              </label>
+
+              <label>
+                E-mail
+                <input type="email" name="email" required />
+              </label>
+            </div>
+
+            <label>
+              Mensagem
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <button class="button" type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Gabriel Cabral</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
